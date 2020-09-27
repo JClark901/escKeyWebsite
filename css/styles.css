@@ -1,9 +1,15 @@
 body {
-    background-color: f4f4f4;
+    background: #343A40;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
+}
+
+.indexBody {
+    background: white;
+    color: black;
+    border: 30px solid #343A40;
 }
 
 #mainHeader {
@@ -71,6 +77,7 @@ body {
     
 }
 
+
 #main {
     float: left;
     width: 70%;
@@ -78,14 +85,23 @@ body {
     box-sizing: border-box;
 }
 
+#main h1 , .whyText h2{
+    background: #0182b4;
+    border: 2px solid black;
+    padding-left: 4px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+
 #sidebar {
     text-align: center;
     float: right;
     width: 30%;
-    background: #333;
+    background:#0182b4 ;
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
+    border: 3px solid #343A40
 }
 
 

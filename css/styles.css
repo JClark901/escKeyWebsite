@@ -77,6 +77,15 @@ body {
     
 }
 
+.contactLink {
+    text-decoration: underline;
+
+}
+
+.contactLink:hover {
+    
+}
+
 
 #main {
     float: left;

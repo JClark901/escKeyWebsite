@@ -54,11 +54,12 @@ body {
 }
 .navbar-brand {
     font-family: 'Oswald', sans-serif;
- 
+    text-shadow: 2px 2px black;
 }
 
 .nav-link {
     font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px black;
 }
 
 #showcase {
@@ -141,7 +142,7 @@ body {
     border: 2px solid black;
     padding-left: 4px;
     color: #fff;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px rgb(1, 51, 75);
 }
 
 #sidebar {
@@ -150,9 +151,11 @@ body {
     width: 30%;
     background:#31A7CB ;
     color: #fff;
+    text-shadow: 1px 1px rgb(1, 51, 75);
     padding: 10px;
     box-sizing: border-box;
     border: 3px solid #343A40
+    
 }
 
 #main-footer {

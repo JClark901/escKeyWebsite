@@ -184,7 +184,6 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
-    width: 100%;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
@@ -194,6 +193,7 @@ body {
     border-radius: 50%;
     width: 200px;
     padding: 50px 0 25px 0
+    
 }
 .aboutContainer {
     border: 1px solid white;
@@ -205,6 +205,7 @@ body {
     text-shadow: 1px 1px 2px black;
     margin-top: 10px;
     background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
 }
 
 .aboutText {

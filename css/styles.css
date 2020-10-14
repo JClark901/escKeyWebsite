@@ -177,7 +177,9 @@ body {
 /* AboutPage */
 
 .aboutBody {
-    background: #343A40;
+    /* background: #343A40; */
+    background-image: url(../images/aboutBG.jpg);
+    background-size: cover;
     margin: 0;
     padding: 0;
 } 
@@ -186,15 +188,15 @@ body {
    
 }
 
-#myVideo {
+/* #myVideo {
     position: fixed;
     bottom: 0;
     right: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    /* overflow: hidden; */
-  }
+    overflow: hidden;
+  } */
 
 .usPic {
     border-radius: 50%;
